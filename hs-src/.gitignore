@@ -1,0 +1,4 @@
+.stack-work/
+hs-src.cabal
+build/
+*~
