@@ -26,7 +26,7 @@ export class HaskellOnLambdaPlaygroundStack extends cdk.Stack {
       this,
       `${id}-apigateway-lambda-fn`,
       {
-        code: lambda.Code.fromAsset('../lambda-src/build'),
+        code: lambda.Code.fromAsset('../apigateway-lambda-src/build'),
         functionName: `${id}-apigateway-lambda-fn`,
         runtime: lambda.Runtime.PROVIDED_AL2,
         handler: 'src/Lib.handler',

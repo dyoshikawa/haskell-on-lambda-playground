@@ -3,8 +3,13 @@
 ### Build
 
 ```
-cd hs-src
-make all
+cd lambda-src
+make
+```
+
+```
+cd apigateway-lambda-src
+make
 ```
 
 ### Deploy
