@@ -1,4 +1,4 @@
 .stack-work/
-hs-src.cabal
+lambda-src.cabal
 build/
 *~

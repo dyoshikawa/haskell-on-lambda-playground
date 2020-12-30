@@ -34,8 +34,6 @@ resolver: lts-15.16
 #   - auto-update
 #   - wai
 # packages: []
-packages:
-- .
 # The following packages have been ignored due to incompatibility with the
 # resolver compiler, dependency conflicts with other packages
 # or unsatisfied dependencies.
@@ -52,9 +50,6 @@ packages:
 #
 # extra-deps: []
 
-extra-deps:
-- aws-lambda-haskell-runtime-3.0.0
-
 # Override default flag values for local packages and extra-deps
 # flags: {}
 
@@ -66,7 +61,7 @@ extra-deps:
 #
 # Require a specific version of stack, using version ranges
 # require-stack-version: -any # Default
-# require-stack-version: ">=2.3"
+# require-stack-version: ">=2.5"
 #
 # Override the architecture used by stack, especially useful on Windows
 # arch: i386
@@ -78,3 +73,9 @@ extra-deps:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+
+packages:
+- .
+
+extra-deps:
+- aws-lambda-haskell-runtime-3.0.0
