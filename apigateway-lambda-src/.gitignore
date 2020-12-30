@@ -1,0 +1,4 @@
+.stack-work/
+apigateway-lambda-src.cabal
+build/
+*~
