@@ -78,4 +78,5 @@ packages:
 - .
 
 extra-deps:
-- aws-lambda-haskell-runtime-3.0.0
+- aws-lambda-haskell-runtime-3.0.5
+- hspec-2.7.4

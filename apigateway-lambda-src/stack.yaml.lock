@@ -5,12 +5,19 @@
 
 packages:
 - completed:
-    hackage: aws-lambda-haskell-runtime-3.0.0@sha256:1de27f1a3bdb85da3ebbc8a4f424c70fc72015c25cd22b13b79f4fa8dace30ff,3015
+    hackage: aws-lambda-haskell-runtime-3.0.5@sha256:3bbb01d7f13a614c6abac697d48cfd3e55513acd1d127c77a780dc4debf22950,2938
     pantry-tree:
       size: 1560
-      sha256: ce4852719b9a5e22d4d050b2e55a3e8b93a411e1ecf97d3a87ee46c705262f00
+      sha256: 574d75a01951f27e31c2eb2758d5a47a30353d9df9ba4852d64f2e0d04e4b258
   original:
-    hackage: aws-lambda-haskell-runtime-3.0.0
+    hackage: aws-lambda-haskell-runtime-3.0.5
+- completed:
+    hackage: hspec-2.7.4@sha256:8d0430e4a7ba8fa1482a1766fd4973f0c5e7c5adf512bded7358269bb9486c9e,1692
+    pantry-tree:
+      size: 532
+      sha256: 6a6ba1798090ee6245f5995303b6ccf1afea26c73d4e69b95330c8914056d420
+  original:
+    hackage: hspec-2.7.4
 snapshots:
 - completed:
     size: 496120
